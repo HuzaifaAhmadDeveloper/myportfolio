@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import logo from "./assets/education_logo/logo.png";
+import logo from "../../assets/education_logo/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
