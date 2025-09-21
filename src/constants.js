@@ -41,7 +41,7 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 // Education Section Logo's
 import ntu from './assets/education_logo/NTU.png';
 import KIPS from './assets/education_logo/kips_college.png';
-import Punjab from './assets/education_logo/Punjab.png';
+import Punjab from './assets/education_logo/punjab.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
