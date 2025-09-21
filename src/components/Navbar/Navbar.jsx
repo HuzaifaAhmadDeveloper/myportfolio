@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import logo from "./assets/education_logo/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,13 +48,13 @@ const Navbar = () => {
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo Image */}
         <div className="cursor-pointer">
-          <img
-            src="/src/assets/logo.png"
-            alt="Huzaifa Ahmad Logo"
-            width={80} // adjust as needed
-            height={20} // optional for img tag (not necessary)
-            className="object-contain"
-          />
+           <img
+      src={logo}
+      alt="Huzaifa Ahmad Logo"
+      width={80}
+      height={20}
+      className="object-contain"
+    />
         </div>
 
         {/* Desktop Menu */}
