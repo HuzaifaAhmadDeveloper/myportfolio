@@ -48,8 +48,8 @@ const Navbar = () => {
         {/* Logo Image */}
         <div className="cursor-pointer">
           <img
-            src="/logo.png"
-            alt="Tarun Kaushik Logo"
+            src="/src/assets/logo.png"
+            alt="Huzaifa Ahmad Logo"
             width={80} // adjust as needed
             height={20} // optional for img tag (not necessary)
             className="object-contain"
@@ -75,7 +75,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/imranAliNiaz"
+            href="https://github.com/HuzaifaAhmadDeveloper"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -83,7 +83,7 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/imran-ali-niaz-179118325/"
+            href="https://www.linkedin.com/in/huzaifa-ahmad-ab74ba227/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -126,7 +126,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/imranAliNiaz"
+                href="https://github.com/HuzaifaAhmadDeveloper"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -134,7 +134,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/imran-ali-niaz-179118325/"
+                href="https://www.linkedin.com/in/huzaifa-ahmad-ab74ba227/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

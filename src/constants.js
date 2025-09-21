@@ -41,6 +41,7 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 // Education Section Logo's
 import ntu from './assets/education_logo/NTU.png';
 import KIPS from './assets/education_logo/kips_college.png';
+import Punjab from './assets/education_logo/Punjab.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
@@ -68,15 +69,15 @@ export const SkillsInfo = [
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      // { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
@@ -106,8 +107,8 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      // { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -142,18 +143,18 @@ export const SkillsInfo = [
       img: ntu,
       school: "National Textile University",
       date: "Nov 2021 - July 2025",
-      grade: "3.56 CGPA",
+      grade: "3.07 CGPA",
       desc: "I completed my Bachelor's degree in Software Engineering (B.Sc.) from National Textile University. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at NTU allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - BSC (Software Engineering)",
     },
     {
       id: 1,
-      img: KIPS,
-      school: "KIPS College",
-      date: "March 2019 - March 2020",
-      grade: "84%",
-      desc: "I completed my class 12 education from KIPS School, Faisalabad, under the BISE board, where I studied Physics, Chemistry, and Biology.",
-      degree: "FSc (Pre-Medical)",
+      img: Punjab,
+      school: "Punjab College",
+      date: "March 2020 - March 2021",
+      grade: "85%",
+      desc: "I completed my intermediate education from Punjab Group Of College, Faisalabad, under the BISE board, where I studied Computer Science, Physics, and Mathematics.",
+      degree: "ISC(Physics)",
     },
     
   ];
@@ -176,7 +177,7 @@ export const SkillsInfo = [
         "Developed an AI-powered web app that replicates the functionality of Bolt.new. It takes user prompts and generates full-stack application code dynamically.",
       image: BoltNewClone,
       tags: ["Next JS", "Convex", "Stripe", "OpenAI API Model", "HTML", "Tailwind CSS", "JavaScript"],
-      github: "https://github.com/imranAliNiaz/bolt-new-ai-clone",
+      github: "https://github.com/HuzaifaAhmadDeveloper/bolt-new-ai-clone",
       // webapp: "https://csprep.netlify.app/",
     },
     {

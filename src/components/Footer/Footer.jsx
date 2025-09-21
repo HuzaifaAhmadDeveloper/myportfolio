@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Imran Ali Niaz</h2>
+        <h2 className="text-xl font-semibold text-purple-500">Huzaifa Ahmad</h2>
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
@@ -38,11 +38,11 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "" },
-            { icon: <FaTwitter />, link: "" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/imran-ali-niaz-179118325/" },
-            { icon: <FaInstagram />, link: "" },
-            { icon: <FaYoutube />, link: "" },
+            { icon: <FaFacebook />, link: "https://www.facebook.com/huzaifa.javaid.623588" },
+            { icon: <FaTwitter />, link: " https://x.com/huzaifa45673223?t=K5PvXeXu1_0JtOXdglSOtA&s=08" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/huzaifa-ahmad-ab74ba227/" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/huzaifaahmad_ansari?igsh=bzAzeXZkejZ5eno=" },
+            { icon: <FaYoutube />, link: "https://www.youtube.com/@huzaifaahmad-dx8xf" },
             
           ].map((item, index) => (
             <a
@@ -59,7 +59,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Imran Ali Niaz. All rights reserved.
+          © 2025 Huzaifa Ahmad. All rights reserved.
         </p>
       </div>
     </footer>

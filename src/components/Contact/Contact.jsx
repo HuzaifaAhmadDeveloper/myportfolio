@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,10 +12,13 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_23d24om",  // Replace with your EmailJS Service ID
-        "template_shltrok",  // Replace with your EmailJS Template ID
+        "service_78xcmgi", 
+        "template_7u3em0m", 
         form.current,
-        "0Kpbu9ZTkolKpfFU-"  // Replace with your EmailJS Public Key
+        {
+          // The public key must be an object with the key 'publicKey'
+          publicKey: "wLqlH8SSgTV_orlxL",
+        }
       )
       .then(
         () => {
