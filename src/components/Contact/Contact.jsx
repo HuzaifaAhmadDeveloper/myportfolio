@@ -8,46 +8,36 @@ const Contact = () => {
   const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_78xcmgi", 
-        "template_7u3em0m", 
-        form.current,
-        {
-          // The public key must be an object with the key 'publicKey'
-          publicKey: "wLqlH8SSgTV_orlxL",
-        }
-      )
-      .then(
-        () => {
-          setIsSent(true);
-          form.current.reset(); // Reset form fields after sending
-          toast.success("Message sent successfully! ✅", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-          });
-        },
-        (error) => {
-          console.error("Error sending message:", error);
-          toast.error("Failed to send message. Please try again.", {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            theme: "dark",
-          });
-        }
-      );
-  };
+  emailjs.sendForm(
+  "service_78xcmgi",
+  "template_7u3em0m",
+  form.current,
+  "wLqlH8SSgTV_orlxL"
+)
+
+    .then(
+      () => {
+        setIsSent(true);
+        form.current.reset();
+        toast.success("Message sent successfully! ✅", {
+          position: "top-right",
+          autoClose: 3000,
+          theme: "dark",
+        });
+      },
+      (error) => {
+        console.error("Error sending message:", error);
+        toast.error("Failed to send message. Please try again.", {
+          position: "top-right",
+          autoClose: 3000,
+          theme: "dark",
+        });
+      }
+    );
+};
+
 
   return (
     <section
